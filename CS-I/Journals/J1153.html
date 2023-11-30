@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="J1153.css">
+    <title>CS-I Journal J1153</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/index.html">Home</a>
+      <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/aboutme.html">About Me</a>
+      <div class="dropdown">
+	<button class="dropbtn">Journals
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1002.html">J1002: Shell</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1006.html">J1006: Source Control</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1012.html">J1012: Alternative Base Addition</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1013.html">J1013: Boolean Algebra</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1016.html">J1016: Logic Composition</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1017.html">J1017: Binary Adders</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1089.html">J1089: Hello World</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1151.html">J1151: Conditional and Flow Chart</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1152.html">J1152: While Loop</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1153.html">J1153: Repeat-While Loop</a>
+	</div>
+      </div>
+      </div>
+    <h1>CS-I Journal J1153: Repeat-While Loop</h1>
+    <p>Name: Rishi Badal</p>
+    <p>Date: 24-Jan-2023</p>
+
+    <p>I received assistance from: No one</p>
+    <p>I assisted: No one</p>
+
+    <h2>Section 1</h2>
+    <h3>1.1: Compare this behavior to that of the while loop. What are the similarities? What are the differences?</h3>
+    <p>Similarities: Both of them tests a condition, they both have Jump instructions, and they have an alternative when the condition is false. Differences: The repeat-while loop starts with a statement and executes it first then it checks to see if the condition is true or false, while the while loop starts with the condition first and check to see if it's true or false to see if the statements in the body of the loop will be executed.</p>
+    <h3>1.2: What are the minimum number of times that this loop will execute?</h3>
+    <p>The minimum numbers of times that this loop will execute it 1 time.</p>
+    <h3>1.3: What is the purpose of the Jump instruction after the consequent?</h3>
+    <p>The purpose of the Jump instruction after the consequent is to make a jump back to the statements at the beginning of the Repeat-While Loop.</p>
+    <h2>Section 2</h2>
+    <h3>2.1: Are you able to implement the same functionality found in a while loop using a repeat-while loop, without changing the condition or adding a conditional? Explain and provide an example.</h3>
+    <p>You are able to implement the same functionality found in a while loop using a repeat-while loop, without changing the condition or adding a conditional as long as the first intial value of the variable is true in the conditions that follow, otherwise you can't implement the same functionality found in a while loop using a repeat-while loop. <u>For example:</u> when x = 8 then the while loop and repeat-while loop will have the same output due to the condition being true, but when x = 3 then the while loop and repeat-while loop will not have the same output due to the condition being false. <br>
+      var x = 8<br>
+      repeat  {<br>
+      print("consequent")<br>
+      x -= 1<br>
+      } while (x > 4)<br>
+      print("alternative")<br>
+    </p>
+    <h3>2.2: Are you able to implement the same functionality found in a repeat-while loop using a while loop, without changing the condition or adding a conditional? Explain and provide an example.</h3>
+    <p>You are able to implement the same functionality found in a repeat-while loop using a while loop, without changing the condition or adding a conditional as long as the first intial value of the variable is true in the conditions that follow, otherwise you can't implement the same functionality found in a repeat-while loop using a while loop. <u>For example:</u> (Using the example from 2.1) It is the same concept, but this time, the repeat-while loop will first run it's statement then go to testing the conditionals after.</p> 
+	
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>I learned what and how repeat-while loops work with conditionals and statements. The "big idea" is that repeat-while loops first run the statement, then it checks for the conditionals to see if the statements in the body of the loop will run or not based on the conditions being true or false.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>I didn't encounter any challenges.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>This experience could be improved if there were more example of different test scenarios with the repeat-while loops and how they would be used for real world problems.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>What I've learned has affected my thinking because it helps me think like a computer and I can think throuygh a repeat-while loop and a while loop even if it's implemented into each other.</p>
+  </body>
+  </html>

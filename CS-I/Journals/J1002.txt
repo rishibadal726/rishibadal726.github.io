@@ -1,0 +1,84 @@
+Name: Rishi Badal
+
+Journal: J1002
+
+Date: 23-Aug-2022
+
+
+
+I received assistance from:
+No one
+
+
+I assisted:
+No one
+
+
+1.1:
+Two other services I use which is implemented using a Client/Server Model is when texting and tiktok.
+
+2.1:
+I think the ability to have two different users create a directory of the same name is important because it can create more subdirectories and help navigate to more specific files that you want to open. 
+
+3.1:
+The home directory has the tilde(~) because it can help users indicate where the home directory is
+
+4.1:
+Yes the prompt did change into a different directory.
+
+4.2:
+This is useful because you might need to switch to a different directory.
+
+5.1:
+When I press the up-arrow it shows the previous command I used.
+
+5.2:
+When I press the down-arrow it shows the most recent command I used.
+
+6.1:
+"Hello, World!" was printed to the screen before.
+
+6.2:
+I think think when I typed the command it printed the text inside the quotation marks.
+
+7.1:
+The ls command shows all the files in a specific directory your in. The tree command shows a tree showing the roots of files and subdirectories.
+
+7.2:
+If you want to see the subdirectories and where files are then use the tree command. If you want to see the files in a specific directory then use the ls command.
+
+8.1:
+The sleep command specifies that it will pause a job for a certain amount of time.
+
+8.2:
+Yes I can prove it because it says the sleep command will wait before returning to do the job for a command.
+
+9.1:
+It wasn't different then what I expected it to do.
+
+9.2:
+To run a job in the background means that you will run a current job right now and leave another job running in the background while the current job will be running.
+
+9.3:
+The number displayed in the brackets specifies the job that is being paused.
+
+10.1:
+I observed that it shows which jobs are being paused by the sleep command. 
+
+10.2:
+It's because the job was paused and I couldn't access it until the time limit expired.
+
+What did I learn? What is the "big idea"?
+I learned how to use the shell and new commands to help me. The "big idea" is learning the basics of shell.
+
+
+What challenges did I encounter?
+I encountered challenges in figuring out how the jobs worked.
+
+
+How could this experience be improved?
+The experience coulld be improved if I had read the reading more carefully.
+
+
+Free Reflection: How has what I've learned affected my thinking?
+It affected my thinking by letting me get exposed to the basics of shell and how to use the shell and new commands to use

@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: cornflowerblue;
+    font-family: "Times New Roman";
+}
+p {
+    color: orangered;
+    font-family: "Lucida Console";
+    border-style: dotted;
+    border-width: thick;
+    border-color: black;
+}
+
+
+

@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    color: peru;
+    font-family: "Georgia";
+}
+p {
+    color: darkolivegreen;
+    font-family: "Lucida Console";
+    border-style: double;
+    border-width: medium;
+    border-color: darkviolet;
+}

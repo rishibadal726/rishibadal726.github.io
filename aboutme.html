@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, th, td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+      }
+      .navbar {
+	  overflow: hidden;
+	  background-color: #333;
+      }
+
+      .navbar a {
+	  float: left;
+	  font-size: 16px;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+      }
+
+      .dropdown {
+	  float: left;
+	  overflow: hidden;
+      }
+
+      .dropdown .dropbtn {
+	  font-size: 16px;
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: red;
+      }
+
+      .dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+      }
+
+      .dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+      }
+
+      .dropdown-content a:hover {
+	  background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+	  display: block;
+      }
+    </style>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/index.html">Home</a>
+      <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/aboutme.html">About Me</a>
+      <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Projects/ISP/Journal.html">ISP Journal</a>
+      <div class="dropdown">
+	<button class="dropbtn">Journals
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1002.html">J1002: Shell</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1006.html">J1006: Source Control</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1012.html">J1012: Alternative Base Addition</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1013.html">J1013: Boolean Algebra</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1016.html">J1016: Logic Composition</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1017.html">J1017: Binary Adders</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1089.html">J1089: Hello World</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1151.html">J1151: Conditional and Flow Chart</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1152.html">J1152: While Loop</a>
+	  <a href="https://codermerlin.com/users/rishi-badal/Digital%20Portfolio/CS-I/Journals/J1153.html">J1153: Repeat-While Loop</a>
+	</div>
+      </div>
+      </div>
+    <h1>About Me</h1>
+    <p>Hello, I am Rishi Badal and I have created this page! I am a current student learning to code. I know the fundamentals of linux, emacs, python, and javascript.</p>
+    <table style="width:100%">
+      <tr>
+	<th>My hobbies</th>
+	<th>What I'm learning</th>
+      </tr>
+      <tr>
+	<td>Playing video games</td>
+	<td>Swift</td>
+      </tr>
+      <tr>
+	<td>Watching netflix</td>
+	<td>Python</td>
+      </tr>
+      <tr>
+	<td>Playing sports with people</td>
+	<td>Javascript</td>
+      </tr>
+    </table>
+</body>
+</html>
