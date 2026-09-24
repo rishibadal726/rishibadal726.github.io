@@ -246,3 +246,37 @@ html, body, .site-header, .project-card, .experience-card, .timeline-card, .abou
 @media (prefers-reduced-motion:reduce) {
   .timeline-card:hover, .timeline-card:focus-visible { transform:none; }
 }
+
+/* Recruiter-focused project summaries and action hierarchy */
+.project-grid-three .card-body .project-outcome {
+  display:flex;
+  align-items:center;
+  gap:9px;
+  margin:-4px 0 22px;
+  color:var(--lime);
+  font:500 11px/1.4 var(--mono);
+  letter-spacing:.02em;
+}
+.project-outcome::before { content:''; flex:none; width:6px; height:6px; border-radius:50%; background:var(--lime); }
+.project-card-actions { gap:10px; }
+.project-card-actions .project-primary {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:10px 13px;
+  border:1px solid var(--lime);
+  border-radius:999px;
+  background:var(--lime);
+  color:#10151d;
+  font-weight:600;
+  text-decoration:none;
+  transition:transform .2s ease, background .2s ease, border-color .2s ease;
+}
+.project-card-actions .project-primary:hover,
+.project-card-actions .project-primary:focus-visible { transform:translateY(-2px); background:#edffaf; border-color:#edffaf; text-decoration:none; }
+.project-card-actions .code-link { font-size:10px; }
+:root[data-theme="light"] .project-card-actions .project-primary { background:#557514; border-color:#557514; color:#fff; }
+:root[data-theme="light"] .project-card-actions .project-primary:hover,
+:root[data-theme="light"] .project-card-actions .project-primary:focus-visible { background:#38530b; border-color:#38530b; }
+@media (prefers-reduced-motion:reduce) { .project-card-actions .project-primary { transition:none; } .project-card-actions .project-primary:hover { transform:none; } }
